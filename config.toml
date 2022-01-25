@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://emiltb.github.io/tbjerglund.dk"
+baseURL = "https://emil.tbjerglund.dk/"
 languageCode = "en"
 title = "Emil Tveden Bjerglund - Data Scientist"
 theme = "hugo-devresume-theme"
@@ -58,7 +58,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.skills]
-        enable = true
+        enable = false
 
         [[params.skills.list]]
         title = "Technical"
@@ -96,7 +96,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.education]
-        enable = true
+        enable = false
 
         [[params.education.list]]
         degree = "MSc in Computer Science"
@@ -115,7 +115,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.awards]
-        enable = true
+        enable = false
 
         [[params.awards.list]]
         name = "Award Lorem Ipsum"
@@ -137,10 +137,10 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.languages.list]]
-        name = "English"
+        name = "Danish"
         level = "Native"
         [[params.languages.list]]
-        name = "Spanish"
+        name = "English"
         level = "Professional"
 
 
@@ -151,7 +151,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.interests]
-        enable = true
+        enable = false
 
         [[params.interests.list]]
         name = "Climbing"
@@ -170,7 +170,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.summary]
-        enable = true
+        enable = false
         text = "Summarise your career here. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
 
 
@@ -181,7 +181,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.experience]
-        enable = true
+        enable = false
 
         [[params.experience.list]]
         title = "Senior Software Engineer"
@@ -240,7 +240,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.projects]
-        enable = true
+        enable = false
 
         [[params.projects.list]]
         title = "Project Lorem Ipsum"
@@ -267,7 +267,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.information]
-        enable = true
+        enable = false
 
         [[params.information.list]]
         title = "Papers"
@@ -292,16 +292,16 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.social.list]]
         icon = "fab fa-github-square"
-        url = "//github.com/username"
-        title = "username"
+        url = "//github.com/emiltb"
+        title = "emiltb"
         [[params.social.list]]
         icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/username"
-        title = "username"
+        url = "//linkedin.com/in/emiltb"
+        title = "emiltb"
         [[params.social.list]]
         icon = "fab fa-twitter-square"
-        url = "//twitter.com/username"
-        title = "@username"
+        url = "//twitter.com/emilbp"
+        title = "@emilbp"
 
 
 
