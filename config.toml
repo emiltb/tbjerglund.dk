@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "http://emil.tbjerglund.dk/"
+baseURL = "https://emiltb.github.io/tbjerglund.dk"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
