@@ -4,7 +4,7 @@ baseURL = "https://emil.tbjerglund.dk/"
 languageCode = "en"
 title = "Emil Tveden Bjerglund - Data Scientist"
 theme = "hugo-devresume-theme"
-googleAnalytics = "G-DHGYN2GB1G"
+googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
