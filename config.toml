@@ -73,18 +73,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list.items]]
         details = "Design and implement analytical solutions database structures"
 
-        #[[params.skills.list]]
-        #title = "Professional"
-        #[[params.skills.list.items]]
-        #details = "Effective communication"
-        #[[params.skills.list.items]]
-        #details = "Team player"
-        #[[params.skills.list.items]]
-        #details = "Strong problem solver"
-        #[[params.skills.list.items]]
-        #details = "Good time management"
-
-
 
 
 
@@ -187,23 +175,21 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Data Warehouse Developer"
         dates = "2021 - Present"
         company = "Jyske Bank"
-        details = ""
-        #[[params.experience.list.items]]
-        #details = "Lorem ipsum dolor sit amet, consectetuer."
-        #[[params.experience.list.items]]
-        #details = "Aenean commodo ligula eget dolor."
-        #[[params.experience.list.items]]
-        #details = "Etiam ultricies nisi vel augue."
-
+        details = "ETL proccesses etc"
+        [[params.experience.list.items]]
+        details = "Development of processes for preparing model data."
+        
         [[params.experience.list]]
         title = "Consultant"
         dates = "2018-2021"
         company = "Danish Technological Institute"
-        details = ""
-        #[[params.experience.list.items]]
-        #details = "Lorem ipsum dolor sit amet, consectetuer."
-        #[[params.experience.list.items]]
-        #details = "Aenean commodo ligula eget dolor."
+        details = "Consultant for businesses within automotive, wind energy, pharmaceuticals, food production etc."
+        [[params.experience.list.items]]
+        details = "Materials characterisation and advanced data analytics"
+        [[params.experience.list.items]]
+        details = "Process optimisation"
+        [[params.experience.list.items]]
+        details = "Product development"
 
     [params.projects]
         enable = false
