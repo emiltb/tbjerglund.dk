@@ -139,10 +139,10 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.interests]
-        enable = false
+        enable = true
 
         [[params.interests.list]]
-        name = "Scouting"
+        name = "Scouting and outdoor life"
         [[params.interests.list]]
         name = "Kettlebell training"
         [[params.interests.list]]
@@ -159,7 +159,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "I have a multidisciplinary background within nanoscience, materials science, organic surface chemistry and surface physics. During my studies I developed a strong interest in hyperspectral analysis (Raman spectroscopy, Electron Energy Loss Spectroscopy etc.) and in particular the data science skills and tools that was necessary to draw sensible information from these large datasets. I have since worked as a consultant as the Danish Technological helping companies from many industries (automotive, wind energy, pharmaceuticals, food production etc.) with analysis of materials, product development and process optimisation. Currently I work as Data Warehouse Developer in Jyske Bank, developing efficient ETL (extract, transform, load) data flows, consulting with model developers on best strategies for data preparation as well as monitoring and optimising daily data flows."
+        text = "Data science is a passion to me and I continously seek to develop my skills and expand my knowledge, both at work and in my spare time. The starting for me is always to understand the stakeholders specific questions and the decisions they are facing, in order to devise the solution that contributes the most value to their business. I have collected and analysed high-dimensional data to help customers answer specific questions about their products, in order to guide new development efforts, predict sample behaviour and reliability at different conditions and solve specific production issues. I am a strong communicator, capable of breaking down technical topics to facilitate discussion with stakeholders. I have a multidisciplinary background within nanoscience, materials science, organic surface chemistry and surface physics. During my studies I developed a strong interest in hyperspectral analysis (Raman spectroscopy, Electron Energy Loss Spectroscopy etc.) and in particular the data science skills and tools that was necessary to draw sensible information from these large datasets."
 
 
 
@@ -175,15 +175,21 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Data Warehouse Developer"
         dates = "2021 - Present"
         company = "Jyske Bank"
-        details = "ETL proccesses etc"
+        details = "Currently I work as Data Warehouse Developer in Jyske Bank, developing efficient ETL (extract, transform, load) data flows, consulting with model developers on best strategies for data preparation as well as monitoring and optimising daily data flows.This is the foundation of Jyske Banks credit modelling. My responsibilities include:"
         [[params.experience.list.items]]
-        details = "Development of processes for preparing model data."
+        details = "Development of ETL processes for preparing model data."
+        [[params.experience.list.items]]
+        details = "Automation of data pipelines."
+        [[params.experience.list.items]]
+        details = "Refining and optimising the existing codebase."
+
+
         
         [[params.experience.list]]
         title = "Consultant"
         dates = "2018-2021"
         company = "Danish Technological Institute"
-        details = "Consultant for businesses within automotive, wind energy, pharmaceuticals, food production etc."
+        details = "At DTI I worked as a consultant helping companies from many industries (automotive, wind energy, pharmaceuticals, food production etc.) with analysis of materials, product development and process optimisation. "
         [[params.experience.list.items]]
         details = "Materials characterisation and advanced data analytics"
         [[params.experience.list.items]]
